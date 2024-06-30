@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Bootstrap</title>
+</head>
+<body>
+        <!----------------navBAR-->
+        <nav>
+            <div class="navbar navbar-expand-lg navbar- sticky-top">
+                <div class="container">
+                    <!------------logo-------------->
+                    <div class="navbar-brand">
+                        <img src="imgs/logo.png" alt="Logo image">
+                    </div>
+                    <!------------menu Icon----------------->
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main">
+                        <i class="fa-solid fa-bars"></i>
+                    </button> 
+                    <!-----------------menu bar------------------>
+                    <div class="collapse navbar-collapse" id="main"> 
+                        <ul class="navbar-nav ms-auto" id="main">
+                            <li class="nav-item "><a href="#" class="nav-link p-4 active" >Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-3">Services</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-3">Portflio</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-3">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-3">Contact</a></li>
+                        </ul>
+                        <!-------------------searche and login------->
+                        <div class="searche ps-4 pe-3 d-none d-lg-block">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div>
+                            <a href="#" class="btn rounded-pill main-btn me-lg-inherit ms-2">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="landing">
+                    <div class="text-center text-light">
+                        <h1 class="display-4">Taste the Creativity</h1>
+                        <p class="text-white-50 pb-3">We make awesome graphic and web design</p>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn rounded-pill main-btn me-lg-inherit ms-2">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <!---------------ENDNaVBar-->
+    <!---------start Section-->
+    <section>
+        <div class="feature py-5 text-center">
+            <div class="container">
+                <div class="main-title my-3">
+                    <img class="img-fluid mb-4" src="imgs/title.png" alt="Title Image">
+                    <h2>We are Good at</h2>
+                    <p class="text-black-50">SOME OF THESE STUFF UNDER</p>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                        <div class="icon-holder position-relative" style="height: 200px;">
+                            <i class="fa-solid fa-1 position-absolute " style="color: var(--section-color); font-size:12rem; left: 50%; transform: translateX(-50%);"></i>
+                            <i class="fa-solid fa-pencil fa-4x position-absolute " style="color: var(--green-color); bottom: 0; left: 50%; transform: translateX(-50%);"></i>
+                        </div>
+                        <h3 class="my-3" style="color: var(--yellow-color);">GRAPHIC DESIGN</h3>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                        <div class="icon-holder position-relative" style="height: 200px;">
+                            <i class="fa-solid fa-2 position-absolute " style="color: var(--section-color); font-size:12rem; left: 50%; transform: translateX(-50%);"></i>
+                            <i class="fa-solid fa-tv fa-4x position-absolute " style="color: var(--green-color); bottom: 0; left: 50%; transform: translateX(-50%);"></i>
+                        </div>
+                        <h3 class="my-3" style="color: var(--yellow-color);">GRAPHIC DESIGN</h3>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                        <div class="icon-holder position-relative" style="height: 200px;">
+                            <i class="fa-solid fa-3 position-absolute " style="color: var(--section-color); font-size:12rem; left: 50%; transform: translateX(-50%);"></i>
+                            <i class="fa-solid fa-plug fa-4x position-absolute " style="color: var(--green-color); bottom: 0; left: 50%; transform: translateX(-50%);"></i>
+                        </div>
+                        <h3 class="my-3" style="color: var(--yellow-color);">GRAPHIC DESIGN</h3>
+                        <p class="lh-lg text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------End Section-->
+    <!-------start Works-->
+    <section>
+        <div class="our-work py-5 text-center" style="background-color: var(--section-color);">
+            <div class="container">
+                <div class="main-title my-3">
+                    <img class="img-fluid mb-4" src="imgs/title.png" alt="Title Image">
+                    <h2>We Make This</h2>
+                    <p class="text-black-50">PREPARE TO BE AMAZED</p>
+                </div>
+                <ul class="list-unstyled d-flex justify-content-center my-5 align-items-center">
+                    <li class="active rounded-pill px-3 py-2">All</li>
+                    <li class="px-3 py-2">Design</li>
+                    <li class="px-3 py-2">Code</li>
+                    <li class="px-3 py-2">Photo</li>
+                    <li class="px-3 py-2">App</li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-01.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-02.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-03.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-04.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-05.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-06.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-07.jpg" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                        <img class="img-fluid bg-white p-1" src="imgs/work-08.jpg" alt="">
+                    </div>
+                </div>
+                <div class="text-center pt-5 pb-3">
+                    <a href="#" class="btn rounded-pill main-btn me-lg-inherit ms-2">Get Started</a>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!-------End Works-->
+    <!--------start about us-->
+    <section>
+        <div class="about-us pt-5 text-center">
+            <div class="container">
+                <div class="main-title my-3">
+                    <img class="img-fluid mb-4" src="imgs/title.png" alt="Title Image">
+                    <h2>Some Stuff About Us</h2>
+                    <p class="text-black-50">THE GREAT TEAM</p>
+                </div>
+                <p class="description text-center my-5 text-black-50 m-auto"
+                style="max-width: 500px;">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
+                    Donec sollicitudin molestie malesuada.</p>
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-12 text-center">
+                            <h4 class="text-start">Retina Design</h4>
+                            <p class="text-black-50 text-start">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                            <p class="text-black-50 text-start">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                            <div class="py-2 text-center ">
+                                <a href="#" class="btn rounded-pill main-btn me-lg-inherit ms-2">Order Me Now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-12 mt-md-4">
+                            <img class="img-fluid" src="imgs/laptop.png" alt="Laptop image">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--------End about us-->
+    <!-------start contact-->
+    <section>
+        <div class="contact py-5" style="background-color: var(--section-color);">
+            <div class="container">
+                <div class="heading text-center py-5">
+                    <h2  style="color: var(--yellow-color);">Meet The Team</h2>
+                    <p class="text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img class="img-fluid" src="imgs/team-1.png" alt="">
+                        <h4 class="text-center py-2 text-white mb-0" style="background-color: var(--green-color);">Luke Skywalker</h4>
+                        <p class="bg-white p-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 ">
+                        <img class="img-fluid" src="imgs/team-2.png" alt="">
+                        <h4 class="text-center py-2 text-white mb-0" style="background-color: var(--green-color);">Luke Skywalker</h4>
+                        <p class="bg-white p-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img class="img-fluid" src="imgs/team-3.png" alt="">
+                        <h4 class="text-center py-2 text-white mb-0" style="background-color: var(--green-color);">Luke Skywalker</h4>
+                        <p class="bg-white p-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                        <img class="img-fluid" src="imgs/team-4.png" alt="">
+                        <h4 class="text-center py-2 text-white mb-0" style="background-color: var(--green-color);">Luke Skywalker</h4>
+                        <p class=" bg-white p-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------end contact-->
+    <!----start tech-->
+    <div class="tech-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-4 py-2 ">
+                    <img class="img-fluid" src="imgs/tech-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-4 py-2 ">
+                    <img class="img-fluid" src="imgs/tech-2.png" alt="">
+                </div>
+                <div class="col-lg-2 col-4 py-2">
+                    <img class="img-fluid" src="imgs/tech-3.png" alt="">
+                </div>
+                <div class="col-lg-2 col-4 py-2">
+                    <img class="img-fluid" src="imgs/tech-4.png" alt="">
+                </div>
+                <div class="col-lg-2 col-4 py-2">
+                    <img class="img-fluid" src="imgs/tech-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-4 py-2">
+                    <img class="img-fluid" src="imgs/tech-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----End tech-->
+    <!--------start project-->
+    <div class="project text-center py-5 mb-4" style="background-color: var(--dark-color);">
+        <div class="container">
+            <h2 class="text-light">Start Your Project Now</h2>
+            <p class="text-white-50">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+            <div class="text-center mt-5 mb-4">
+                <a href="#" class="btn rounded-pill main-btn">Start Project</a>
+            </div>
+        </div>
+    </div>
+    <!--------End project-->
+    <!-------start read plog-->
+    <div class="read-blog">
+        <div class="container">
+            <div class="main-title my-3 text-center pt-5">
+                <img class="img-fluid mb-4" src="imgs/title.png" alt="Title Image">
+                <h2>Read Our Blog</h2>
+                <p class="text-black-50">NEW STORIES</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                    <img class="img-fluid" src="imgs/blog-1.jpg" alt="">
+                    <div class="card-text p-3" style="border: 1px solid rgba(0, 0, 0, .125); border-top: none;">
+                        <span class="text-black-50">Jan 17, 2022</span>
+                        <h5>Some Awesome Blog Title Here</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                    <img class="img-fluid" src="imgs/blog-2.jpg" alt="">
+                    <div class="card-text p-3" style="border: 1px solid rgba(0, 0, 0, .125); border-top: none;">
+                        <span class="text-black-50">Jan 17, 2022</span>
+                        <h5>Some Awesome Blog Title Here</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 py-5">
+                    <img class="img-fluid" src="imgs/blog-3.jpg" alt="">
+                    <div class="card-text p-3" style="border: 1px solid rgba(0, 0, 0, .125); border-top: none;">
+                        <span class="text-black-50">Jan 17, 2022</span>
+                        <h5>Some Awesome Blog Title Here</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3 mb-5">
+                <a href="#" class="btn rounded-pill main-btn">More Stories</a>
+            </div>
+        </div>
+    </div>
+    <!-------End read plog-->
+    <!-----start subscribe-->
+    <div class="subscribe py-5" style="background-color: var(--yellow-color);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="fs-4">Subscribe to our Newsletter:</h3>
+                </div>
+                <div class="col-md-6 col-lg-7 inp">
+                    <input class="w-100" type="text" placeholder="Enter Email Address" style="border: none; background-color: var(--yellow-color);">
+                </div>
+                <div class="col-md-6 col-lg-2 mt-4 ">
+                    <div class="btn rounded-pill" style="background-color: var(--dark-color); color: var(--yellow-color);">Subscribe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----End subscribe-->
+    <!-------start footer-->
+    <footer class="py-5" style="background-color: var(--dark-color);">
+        <div class="container">
+            <div class="row text-white-50 text-center">
+                <div class="col-lg-4 col-md-6">
+                    <img src="imgs/logo.png" alt="">
+                    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p><br>
+                    <p>Created By <span style="color: var(--green-color);"> Graphberry</span></p><br>
+                    <p>© 2022 - <span style="color: var(--yellow-color);">Bondi Inc</span></p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-light">Links</h5>
+                    <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Services</li>
+                            <li>Portfolio</li>
+                            <li>Testimonials</li>
+                            <li>Support</li>
+                            <li>Terms and Condition</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-light">About Us</h5>
+                    <ul class="list-unstyled lh-lg">
+                            <li>Sign In</li>
+                            <li>Register</li>
+                            <li>About Us</li>
+                            <li> Contact Us</li>
+                            <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-light mb-3">Contact Us</h5>
+                    <p>Get in touch with us via mail phone. <br>We are waiting for your call or message</p>
+                        <div class="w-100">
+                            <a href="#" class="btn rounded-pill main-btn w-100 my-5">graphberry@gmail.com </a>
+                        </div>
+                        <ul class="list-unstyled d-flex gap-4 text-center">
+                            <li>
+                                <a href="#" class="text-light d-block" ><i class="fa-brands fa-facebook rounded-circle p-2" style="background-color:#1877f2; width: 20px;height: 20px; "></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light d-block"><i class="fa-brands fa-twitter rounded-circle p-2" style="background-color: #1da1f2;width: 20px;height: 20px;  "></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light d-block"><i class="fa-brands fa-linkedin rounded-circle p-2" style="background-color: #0077b5;width: 20px;height: 20px;"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-light d-block"><i class="fa-brands fa-youtube  rounded-circle p-2" style="background-color: #ff0000;width: 20px;height: 20px; " ></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-------End footer-->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

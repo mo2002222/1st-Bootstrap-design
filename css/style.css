@@ -1,0 +1,116 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color:#ffc400;
+  --section-color: #eff7fa;
+}
+
+body .main-btn {
+  background: var(--red-color);
+  color: var(--yellow-color);
+}
+body .main-btn:hover {
+  background: #e1334d;
+  color: var(--yellow-color);
+}
+body .main-title {
+  position: relative;
+}
+body .main-title::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 3px solid var(--green-color);
+}
+
+.navbar {
+  background: var(--dark-color);
+  color: var(--green-color);
+}
+.navbar .container svg {
+  color: #fff;
+}
+.navbar .container .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar .container .navbar-nav .active {
+  color: var(--green-color);
+}
+.navbar .container .nav-link:hover {
+  color: var(--green-color);
+}
+.navbar .searche {
+  border-left: 2px solid var(--green-color);
+}
+.navbar .searche svg {
+  color: var(--green-color);
+}
+.navbar .navbar-toggler {
+  border: 2px solid #fff;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded=true] {
+  border-color: var(--green-color);
+}
+
+main {
+  height: calc(100vh - 72px);
+  background: var(--dark-color);
+}
+
+.our-work .list-unstyled .active {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+.our-work .list-unstyled li:not(.active):hover {
+  cursor: pointer;
+  color: var(--red-color);
+}
+.our-work .col-sm-6 {
+  position: relative;
+}
+.our-work .col-sm-6::after {
+  content: "Apllication";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0px;
+  color: #fff;
+  position: absolute;
+  width: 0%;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: calc(100% - 0.5rem);
+  background-color: rgba(51, 209, 204, 0.6705882353);
+  transition: 0.7s;
+}
+.our-work .col-sm-6:hover::after {
+  display: flex;
+  width: 87%;
+  font-size: 20px;
+}
+
+.inp {
+  position: relative;
+}
+
+.w-100::placeholder {
+  color: var(--dark-color);
+}
+
+.inp::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+}/*# sourceMappingURL=style.css.map */
